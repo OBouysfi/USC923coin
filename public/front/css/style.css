@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.685);
+    position: fixed;
+}
+.back{
+    background-image: url('../img/back5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+#buy{
+    background-image: url('../img/back1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+.navbar .collapse .navbar-nav a{
+    color: white;
+    font-weight: bold;
+   
+}
+.navbar .collapse .navbar-nav a:hover{
+    color: rgb(211, 179, 1);
+    transition: all 0.5s;
+}
+.welcome{
+    position: relative;
+    text-align: center;
+    margin-top: 110px;
+}
+.welcome h1{
+    color: white;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 45px;
+}
+.welcome p{
+    color: white;
+    font-weight: bold;
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+.welcome .btnActive{
+    background-color: rgb(211, 179, 1);
+    border: 2px solid white;
+    color: black;
+    font-weight: bold;
+}
+.welcome .btnSOLID{
+    color: white;
+    font-weight: bold;
+    border: 2px solid rgb(211, 179, 1);
+}
+.welcome a:hover{
+    color: rgb(228, 111, 1);
+    transition: all 0.5s;
+}
+.welcome a{
+    margin: 0px 5px;
+    top: 15px;
+}
+
+#hero{
+    width: 100%;
+}
+#rode{
+    background-color: rgb(231, 233, 235);
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	position: relative;
+    top: 15px;
+}
+.wrapper {
+    max-width: 850px;
+    margin: 50px auto;
+    height: 600px;
+    background-color: #FFF;
+    overflow: hidden;
+    box-shadow: 5px 25px 35px #3535356b
+}
+
+.wrapper .bg-yellow {
+    background-color: #fdc91f;
+    height: 100%;
+    width: 40%;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 20px
+}
+
+.wrapper .bg-yellow .text-white {
+    font-size: 3rem
+}
+
+.wrapper .bg-yellow .cursive {
+    font-family: 'Kalam', cursive;
+    font-size: 1rem;
+    font-weight: 600
+}
+
+.wrapper .contact-form {
+    width: 100%;
+    padding: 40px 80px 40px 50px
+}
+
+.wrapper .contact-form .h3 {
+    padding-top: 15px;
+    font-weight: 700
+}
+
+.wrapper .contact-form label {
+    font-size: 0.9rem;
+    color: #555;
+    font-weight: 500;
+    margin-bottom: 10px
+}
+
+.wrapper .contact-form textarea {
+    height: 120px
+}
+
+.wrapper .contact-form .form-control {
+    background-color: #e7e7e7;
+    box-shadow: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border: none;
+    border-top: 1px solid #bbb
+}
+
+.wrapper .contact-form .btn {
+    font-size: 1.2rem;
+    font-weight: 700
+}
+
+.wrapper .contact-form .btn.btn-default {
+    color: #F50057
+}
+
+.wrapper .contact-form .btn.btn-primary {
+    background: #F50057;
+    border: none;
+    padding: 8px 18px;
+    box-shadow: 0 8px 12px #3535356b
+}
+
+.wrapper .contact-form .btn.btn-primary:hover {
+    background-color: #f50056e5
+}
+
+.modal .modal-content .modal-header .fas {
+    color: #F50057
+}
+
+@media(max-width: 900.5px) {
+    .wrapper {
+        margin: 20px
+    }
+}
+
+@media(max-width: 575.5px) {
+    .wrapper .contact-form {
+        padding: 40px
+    }
+
+    .wrapper .bg-yellow {
+        padding-left: 30px
+    }
+}
+
+@media(max-width: 496px) {
+    .wrapper .bg-yellow {
+        display: none
+    }
+}
+
+@media(max-width: 350px) {
+    .wrapper {
+        height: 570px
+    }
+
+    .wrapper .contact-form {
+        padding: 20px
+    }
+}
