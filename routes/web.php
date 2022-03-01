@@ -12,7 +12,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
+/**Frontend */
+Route::get('', 'App\Http\Controllers\FrontController@index')->name('home');
+/**Backend */
